@@ -9,7 +9,7 @@ const databases = new Databases(client);
 
 async function test() {
     try {
-        await databases.getDocument("main-stackflow", "questions", "6a104e660034070b6b62");
+        await databases.getDocument("main-DevOra", "questions", "6a104e660034070b6b62");
     } catch(e) {
         console.log("ERROR CODE TYPE:", typeof e.code, "VALUE:", e.code);
         console.log("ERROR STATUS TYPE:", typeof e.status, "VALUE:", e.status);

@@ -11,13 +11,13 @@ async function clearCollection(collectionId) {
     let hasMore = true;
     let totalDeleted = 0;
     while(hasMore) {
-        const result = await databases.listDocuments("main-stackflow", collectionId);
+        const result = await databases.listDocuments("main-DevOra", collectionId);
         if(result.documents.length === 0) {
             hasMore = false;
             break;
         }
         for(const doc of result.documents) {
-            await databases.deleteDocument("main-stackflow", collectionId, doc.$id);
+            await databases.deleteDocument("main-DevOra", collectionId, doc.$id);
             totalDeleted++;
         }
     }

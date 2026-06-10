@@ -17,7 +17,7 @@ const client = new Client()
 const databases = new Databases(client);
 const users = new Users(client);
 
-const db = "main-stackflow";
+const db = "main-DevOra";
 const collections = ["questions", "answers", "comments", "votes"];
 
 async function clearCollection(collectionId) {

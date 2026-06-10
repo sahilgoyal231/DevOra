@@ -8,7 +8,7 @@ const databases = new Databases(client);
 
 async function test() {
     try {
-        const questions = await databases.listDocuments("main-stackflow", "questions");
+        const questions = await databases.listDocuments("main-DevOra", "questions");
         const q = questions.documents[0];
         if (!q) {
             console.log("No questions found");
@@ -17,7 +17,7 @@ async function test() {
         console.log("Question found:", q.$id);
         
         // try fetching exactly how API does
-        const qRow = await databases.getDocument("main-stackflow", "questions", q.$id);
+        const qRow = await databases.getDocument("main-DevOra", "questions", q.$id);
         console.log("Fetched qRow:", qRow.$id);
     } catch(e) {
         console.log("ERROR CODE:", e.code, "MESSAGE:", e.message);

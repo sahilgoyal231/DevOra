@@ -15,7 +15,7 @@ async function test() {
         
         // Find a question by querying tablesDB
         // Actually, just create one!
-        const qDoc = await databases.createDocument("main-stackflow", "questions", "unique()", {
+        const qDoc = await databases.createDocument("main-DevOra", "questions", "unique()", {
             title: "Test Question",
             content: "Test Content",
             authorId: user.$id,
@@ -49,7 +49,7 @@ async function test() {
         console.log("Revoke Response:", response2.status, await response2.json());
         
         // Clean up
-        await databases.deleteDocument("main-stackflow", "questions", qDoc.$id);
+        await databases.deleteDocument("main-DevOra", "questions", qDoc.$id);
     } catch(e) {
         console.log("ERROR CODE:", e.code, "MESSAGE:", e.message);
     }

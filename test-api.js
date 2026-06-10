@@ -19,7 +19,7 @@ async function test() {
         console.log("Initial Reputation:", prefs.reputation || 0);
         
         // 2. Create Question
-        const qDoc = await databases.createDocument("main-stackflow", "questions", "unique()", {
+        const qDoc = await databases.createDocument("main-DevOra", "questions", "unique()", {
             title: "Automated API Test Question",
             content: "This is automated.",
             authorId: user.$id,

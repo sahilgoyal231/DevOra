@@ -14,7 +14,7 @@ async function test() {
         const user = usersList.users[0];
         console.log("User:", user.$id);
         
-        const db = "main-stackflow";
+        const db = "main-DevOra";
         const votes = await databases.listDocuments(db, "votes");
         console.log("Votes:", votes.documents);
         

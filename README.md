@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>🚀 StackFlow Appwrite</h1>
-  <p><strong>A modern, fully-featured StackOverflow clone built with Next.js and Appwrite.</strong></p>
+  <h1>🚀 DevOra</h1>
+  <p><strong>A modern, fully-featured tech problem asking community platform built with Next.js and Appwrite.</strong></p>
 
   <p>
     <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js" alt="Next.js" /></a>
@@ -12,7 +12,7 @@
 
 <br />
 
-Welcome to **StackFlow**, a highly interactive and responsive Question & Answer platform inspired by StackOverflow. This project leverages the power of Next.js for seamless server-side rendering and static generation, paired with Appwrite for a robust, secure, and scalable backend.
+Welcome to **DevOra**, a highly interactive and responsive Question & Answer platform inspired by StackOverflow. This project leverages the power of Next.js for seamless server-side rendering and static generation, paired with Appwrite for a robust, secure, and scalable backend.
 
 ## ✨ Features
 
@@ -53,8 +53,8 @@ Make sure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/stackflow-appwrite.git
-cd stackflow-appwrite
+git clone https://github.com/your-username/DevOra-appwrite.git
+cd DevOra-appwrite
 ```
 
 ### 2. Install Dependencies

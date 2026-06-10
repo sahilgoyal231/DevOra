@@ -1,4 +1,4 @@
-export const db = "main-stackflow"
+export const db = "main-DevOra"
 export const questionCollection = "questions"
 export const answerCollection = "answers"
 export const commentCollection = "comments"

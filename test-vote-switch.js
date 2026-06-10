@@ -12,7 +12,7 @@ async function test() {
         const ulist = await users.list();
         const user = ulist.users[0];
         
-        const qDoc = await databases.createDocument("main-stackflow", "questions", "unique()", {
+        const qDoc = await databases.createDocument("main-DevOra", "questions", "unique()", {
             title: "Test Question",
             content: "Test Content",
             authorId: user.$id,
@@ -34,7 +34,7 @@ async function test() {
             body: JSON.stringify({ votedById: user.$id, voteStatus: "downvoted", type: "question", typeId: qDoc.$id })
         })).status);
         
-        await databases.deleteDocument("main-stackflow", "questions", qDoc.$id);
+        await databases.deleteDocument("main-DevOra", "questions", qDoc.$id);
     } catch(e) {}
 }
 test();
