@@ -101,7 +101,6 @@ The codebase is well-commented and structured logically to help you customize it
 ## 🎓 Acknowledgements
 
 - Inspiration drawn from [StackOverflow](https://stackoverflow.com/).
-- Check out the full YouTube tutorial for building this project by [Hitesh Choudhary](https://www.youtube.com/@HiteshChoudharydotcom).
 
 ## 📄 License
 
